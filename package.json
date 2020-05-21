@@ -7,7 +7,7 @@
     "postinstall": "npm run webpack",
     "webpack": "webpack",
     "build": "npm run webpack -- --watch --mode=development",
-    "start:dev": "npm run build & DATABASE_URL=postgres://localhost/my_db nodemon server.js --ignore dist --ignore src"
+    "start:dev": "npm run build & DATABASE_URL=postgres://localhost/postgres nodemon server.js --ignore dist --ignore src"
   },
   "keywords": [],
   "author": "",
@@ -22,7 +22,8 @@
     "babel-loader": "^7.1.5",
     "babel-preset-react": "^6.24.1",
     "express": "^4.16.3",
-    "pg": "^7.4.3",
+    "nodemon": "^2.0.4",
+    "pg": "^7.18.2",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "react-redux": "^5.0.7",

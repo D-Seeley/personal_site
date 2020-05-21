@@ -7,7 +7,7 @@ const { User } = db.models;
 const app = express();
 app.use(require('body-parser').json());
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 1337;
 
 app.use('/dist', express.static(path.join(__dirname, 'dist')));
 
