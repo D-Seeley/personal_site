@@ -1,0 +1,26 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+    text-align: center;
+    /* padding: 3rem; */
+    font-size: 1.125rem;
+    line-height: 1;
+    transition: all 725ms ease-in-out;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+p {
+    margin-bottom: 1rem;
+    color: white;
+}
+span {
+    position: relative;
+}
+
+#floatingName {
+    font-size: 5em;
+}
